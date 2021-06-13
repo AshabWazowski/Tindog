@@ -1,2 +1,1 @@
-# Tindog
-Startup website Landing Page
+TinDog Starting Files

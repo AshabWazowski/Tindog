@@ -1,0 +1,171 @@
+#title{
+    background-color: #ff4c68;
+}
+h1{
+    font-family: "Montserrat-Black";
+    font-weight: bold;
+    color: white;
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+h2{
+    font-family: "Montserrat-Bold";
+    font-size: 2.3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+
+/* Navigation bar */
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0px 18px;
+}
+.nav-link{
+    font-family: "Montserrat-Light";
+    font-size: 1.2rem;
+
+}
+
+/* TOP BUTTONS */
+
+
+.download-btn{
+    margin: 5% 3% 5% 0%;
+}
+
+
+
+/* Title Image */
+
+.Title-image{
+width: 60%;
+transform: rotate(25deg);
+position: absolute;
+right: 140px;
+}
+
+/* feature Section */
+
+
+#features{
+    
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    
+}
+.icon{
+    margin-bottom: 1rem;
+    color: #ef8172;
+    
+}
+.Feature-sec{
+    text-align: center;
+    padding-bottom: 4.5%;
+
+}
+
+p{
+    color: #8f8f8f;
+}
+.icon:hover{
+    color: #ff4c68;
+    
+}
+
+/* ******************Testimonial section ***********************/
+
+#testimonials{
+    
+    background-color: #ef8172;
+    text-align: center;
+    color: #fff;
+
+    }
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.carousel-img{
+    width: 15%;
+    border-radius: 100%;
+    padding: 15px;
+
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-colmn{
+    padding: 3% 2%;
+}
+@media (max-width: 992px){
+    #title{
+        text-align: center;
+    }
+    .Title-image{
+        transform: rotate(0);
+        position: static;
+    }
+}
+
+/* Call to action */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+}
+.btm-title {
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    color: #fff;
+    font-weight: bolder;
+    padding: 5% 15%;
+    margin: 0px 50px;
+}
+.btn-bottom{
+    margin: 0px 15px 130px ;
+}
+
+
+
+
+/* Footer Section */
+
+#footer{
+    background-color: #fff;
+    text-align: center;
+}
+.contact{
+    padding: 7% 10% 0%;
+    margin-bottom: 20px;
+}
+.btm-icon{
+    margin: 0px 8px;
+}
